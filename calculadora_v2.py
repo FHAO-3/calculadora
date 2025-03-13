@@ -14,7 +14,7 @@ def divisao(num1, num2):
     try:
         return num1 / num2
     except ZeroDivisionError:
-        print('O divisor não pode ser igual a 0')
+        return 'O divisor não pode ser igual a 0'
 
 
 def calculadora(num1, num2, operacao):
