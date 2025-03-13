@@ -11,9 +11,9 @@ def multiplicacao(num1, num2):
 
 
 def divisao(num1, num2):
-    try:
+    if num2 != 0:
         return num1 / num2
-    except ZeroDivisionError:
+    else:
         return 'O divisor não pode ser igual a 0'
 
 
@@ -35,10 +35,10 @@ def calculadora(num1, num2, operacao):
         )
     elif operacao == '/' or operacao == 'divisão':
         return divisao(
-            num1=num1,
-            num2=num2,
-        )
-
+            num1=num1, 
+            num2=num2, 
+        ) 
+ 
 
 saida = ''
 
