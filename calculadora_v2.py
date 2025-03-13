@@ -14,7 +14,7 @@ def divisao(num1, num2):
     if num2 != 0:
         return num1 / num2
     else:
-        return 'O divisor não pode ser igual a 0'
+        return 'Não e possivel realizar a divisão por 0' 
 
 
 def calculadora(num1, num2, operacao):
